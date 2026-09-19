@@ -28,3 +28,5 @@ dist/
 *.obj
 *.d
 *.zip
+*.exe
+*.uvguix.*

@@ -1,0 +1,38 @@
+id: e_puzzle_vision
+name: E Puzzle Vision
+name[zh]: E题拼图视觉
+version: 0.2.63
+icon: ''
+author: Contest Team
+desc: Offline A4 puzzle segmentation and pose solver for MaixCAM2
+desc[zh]: MaixCAM2离线A4拼图分割、求解与位姿计算
+exclude:
+  - tests
+  - tools
+  - diagnostics
+  - dist
+  - __pycache__
+  - debug_result.jpg
+  - result.json
+files:
+  - puzzle_vision\__init__.py
+  - puzzle_vision\config.py
+  - puzzle_vision\detector.py
+  - puzzle_vision\geometry.py
+  - puzzle_vision\pipeline.py
+  - puzzle_vision\solver.py
+  - puzzle_vision\template_solver.py
+  - tests\__init__.py
+  - tests\synthetic_scene.py
+  - tests\test_vision.py
+  - tools\calibrate_camera.py
+  - tools\collect_calibration_points.py
+  - tools\fit_frame_to_robot.py
+  - tools\run_image.py
+  - tools\uart_smoke_test.py
+  - app.yaml
+  - config.example.json
+  - config.json
+  - main.py
+  - README.md
+  - result.json

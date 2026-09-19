@@ -1,0 +1,32 @@
+{
+  "camera_width": 1280,
+  "camera_height": 720,
+  "camera_fps": 30,
+  "capture_frames": 5,
+  "px_per_mm": 3.0,
+  "fixed_paper_quad_px": null,
+  "expected_piece_count": 0,
+  "solver_mode": "auto",
+  "solver_time_limit_ms": 15000,
+  "solver_total_time_limit_ms": 30000,
+  "min_rectangle_fill_ratio": 0.93,
+  "min_rectangle_side_coverage": 0.88,
+  "min_rectangle_convexity_ratio": 0.96,
+  "max_rectangle_corner_error_mm": 5.0,
+  "placement_spread_mm": 5.0,
+  "texture_enabled": true,
+  "start_mode": "touch",
+  "uart_enabled": false,
+  "uart_device": "/dev/ttyS2",
+  "uart_baudrate": 115200,
+  "frame_to_robot": [
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "robot_calibrated": false,
+  "robot_theta_sign": 1.0,
+  "robot_xy_pulses_per_mm": 80.0,
+  "robot_x_max_pulse": 24000,
+  "robot_y_max_pulse": 16700
+}
