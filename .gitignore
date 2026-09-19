@@ -1,0 +1,30 @@
+# Isolated Git worktrees
+.worktrees/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python caches and local configuration
+__pycache__/
+*.py[cod]
+.pytest_cache/
+config.json
+result.json
+tmp/
+
+# Build outputs and generated packages
+build/
+Debug/
+Release/
+dist/
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.obj
+*.d
+*.zip
